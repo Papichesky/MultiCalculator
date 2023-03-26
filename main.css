@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "InterLight"; 
+    src: url("Inter-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+    font-family: "InterSemiBold"; 
+    src: url("Inter-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    }
+
+@font-face {
+    font-family: "InterExtraBold"; 
+    src: url("Inter-ExtraBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+h1 {
+    color: #F5F5DB;
+    font-family: InterLight;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+body {
+    background-color: #4C4C4D;
+  }
+.maindiv {
+    width: 884px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkslategray;
+  }
+ 
+.button {
+    width: 834px;
+    text-align: center;
+    font-family: InterExtraBold;
+    background-color: #D9D9D9;
+    border: none;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+    cursor: pointer;
+
+  }
+
+.label {
+    width: fit-content;
+    font-family: InterExtraBold;
+    background-color: #D9D9D9;
+    border: none;
+    color: #F5F5DB;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+}
+
+.resultbutton {
+    width: 450px;
+    text-align: center;
+    font-family: InterExtraBold;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: #70C26E;
+    border: none;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+
+}
